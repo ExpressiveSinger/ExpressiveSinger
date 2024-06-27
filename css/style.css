@@ -84,6 +84,15 @@ form {
     /*display: inline-block;*/
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: "Avenir";    
+  font-size: 120%;
+}
+
 label {
     font-size: 90%;
 }
