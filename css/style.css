@@ -90,8 +90,7 @@ table, th, td {
   border-collapse: collapse;
   margin-right: 10px;
   margin-left: 10px;
-  font-family: "Avenir";    
-  font-size: 120%;
+  font-family: "Avenir";
 }
 
 label {
@@ -111,12 +110,18 @@ ul li{
 }
 
 audio {
+    width: 150px;
     height: 35px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: -5px;
-    vertical-align: bottom;
+    vertical-align: center;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
 }
 
 .wordmark {
